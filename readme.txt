@@ -5,7 +5,7 @@ Tags: CDN, MAXCDN, jquery, js, optimisation, speed, WordPress Performance
 Donate link: additifstabac@free.fr
 Requires at least: 2.8
 Tested up to: 4.0
-Stable tag: 1.0
+Stable tag: 1.0.1
 
 Charge les bibliothèques open source jQuery et jQuery-migrate depuis le CDN de jQuery délivré par MAXCDN
 
@@ -33,3 +33,9 @@ More info (in french): http://additifstabac.free.fr/index.php/use-jquery-CDN/
 1. Dézippez l\'archive et placez là dans le dossier /wp-content/plugins
 1. Activez le \'Plugin\' depuis le tableau de bord de WordPress
 1. Il fonctionne dès l\'activation en arrière plan et ne nécessite aucun réglage.
+
+== Changelog ==
+= 1.0.1 =
+* Do not show the version of jQuery, masonry and jquery-migrate as recommended by gtmetrix 
+"Most proxies, most notably Squid up through version 3.0, do not cache resources with a "?" in their URL even if a Cache-control: public header is present in the response. To enable proxy caching for these resources, remove query strings from references to static resources, and instead encode the parameters into the file names themselves."
+http://gtmetrix.com/remove-query-strings-from-static-resources.html
