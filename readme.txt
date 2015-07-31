@@ -5,7 +5,7 @@ Tags: CDN, MAXCDN, jquery, js, jquery-migrate, optimisation, speed, WordPress Pe
 Donate link: additifstabac@free.fr
 Requires at least: 2.8
 Tested up to: 4.4
-Stable tag: 1.1
+Stable tag: 
 
 Charge les bibliothèques open source jQuery et jQuery-migrate depuis le CDN de jQuery délivré par MAXCDN
 
