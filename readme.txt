@@ -4,8 +4,8 @@ plugin url: http://additifstabac.free.fr/index.php/use-jquery-cdn/
 Tags: CDN, MAXCDN, jquery, js, jquery-migrate, optimisation, speed, WordPress Performance
 Donate link: additifstabac@free.fr
 Requires at least: 2.8
-Tested up to: 4.1
-Stable tag: 1.0.2
+Tested up to: 4.3
+Stable tag: 1.1
 
 Charge les bibliothèques open source jQuery et jQuery-migrate depuis le CDN de jQuery délivré par MAXCDN
 
@@ -42,3 +42,6 @@ http://gtmetrix.com/remove-query-strings-from-static-resources.html
 = 1.0.2 =
 * French : Affectation d'une priorité basse d'exécution du plugin afin de permettre à ce plugin d'agir en tout dernier lieu après les autres plugins.  Ceci permet d'assurer la compatibilité avec les autres plugins agissant eux aussi sur les scripts jQuery.
 * English: Assigning a low priority for the implementation of the plugin to allow this plugin to act as a last place after the other plugins. This ensures compatibility with other plugins modifying the jQuery scripts.
+= 1.1 =
+* French : Utilisation du protocole https en lieu et place de http.
+* English: Using https instead of http protocol.
